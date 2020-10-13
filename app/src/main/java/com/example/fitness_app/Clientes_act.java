@@ -52,11 +52,11 @@ public class Clientes_act extends AppCompatActivity {
         int resultado = saldo - extreme;
         int resultado2 = saldo - mindfulness;
 
-        if(cliente.equals("Roberto") && planes.equalsIgnoreCase("Extreme"))
+        if(cliente.equals("Ivan") && planes.equalsIgnoreCase("Extreme"))
         {
             text.setText("El valor Adeudado por Extreme es: "+ resultado);
         }
-        else if(cliente.equals("Roberto") && planes.equalsIgnoreCase("Mindfulness"))
+        else if(cliente.equals("Ivan") && planes.equalsIgnoreCase("Mindfulness"))
         {
             text.setText("El valor Adeudado por Mindfulness es: "+ resultado2);
         }
